@@ -57,7 +57,7 @@ export default async function handler(req, res) {
         const m3u8Data = await m3u8Response.text();
 
         // Initialize variables to store filtered URLs
-        let frenchAudioUrl = null;
+        let arabicAudioUrl = null;
         let videoUrl = null;
 
         // Process the M3U8 playlist
@@ -66,11 +66,12 @@ export default async function handler(req, res) {
         while (i < lines.length) {
             const line = lines[i].trim();
 
-            if (line.startsWith('#EXT-X-MEDIA') && line.includes('LANGUAGE="ara"')) {
-                // Extract French audio URL
+            // Check for Arabic language using both "und" and "ara"
+            if (line.startsWith('#EXT-X-MEDIA') && (line.includes('LANGUAGE="ara"') || (line.includes('LANGUAGE="und"') && line.includes('a/0/0.m3u8')))) {
+                // Extract Arabic audio URL
                 const audioMatch = line.match(/URI="([^"]+)"/);
                 if (audioMatch) {
-                    frenchAudioUrl = audioMatch[1];
+                    arabicAudioUrl = audioMatch[1];
                 }
             }
 
@@ -88,13 +89,13 @@ export default async function handler(req, res) {
             i++;
         }
 
-        if (!frenchAudioUrl || !videoUrl) {
+        if (!arabicAudioUrl || !videoUrl) {
             throw new Error('Arabic audio URL or 720p video URL not found in M3U8 playlist');
         }
 
         // Construct the filtered M3U8 playlist
         const filteredM3U8 = `#EXTM3U
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="ara",NAME="Arabic",DEFAULT=NO,URI="${frenchAudioUrl}"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="ara",NAME="Arabic",DEFAULT=NO,URI="${arabicAudioUrl}"
 #EXT-X-STREAM-INF:BANDWIDTH=40000000,AUDIO="aac",DEFAULT=YES,RESOLUTION=1280x720,CLOSED-CAPTIONS=NONE
 ${videoUrl}`;
 
