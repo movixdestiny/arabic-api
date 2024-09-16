@@ -8,11 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-  "node-fetch": "^3.0.0",
-  "next": "^13.4.0",  // Replace with the latest stable version
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "@supabase/supabase-js": "^2.0.0"
+    "node-fetch": "^3.0.0",
+    "next": "^13.4.0",  // Specify a stable version
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@supabase/supabase-js": "^2.0.0"
+  }
 }
-}
-
