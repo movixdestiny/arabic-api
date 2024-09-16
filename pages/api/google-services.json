@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060875966901",
+    "project_id": "easymovie-b53e6",
+    "storage_bucket": "easymovie-b53e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060875966901:android:c5a6aadb3471204b9aa1fc",
+        "android_client_info": {
+          "package_name": "com.muratozturk.easyfilm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060875966901-khar18ajbbg0kg42h0elhjhq8jv75mt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqz01YTPvQbeZdWNiixag0XmODoAMEonk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060875966901-khar18ajbbg0kg42h0elhjhq8jv75mt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
