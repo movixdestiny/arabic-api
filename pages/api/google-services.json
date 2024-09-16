@@ -1,39 +1,13 @@
 {
-  "project_info": {
-    "project_number": "1060875966901",
-    "project_id": "easymovie-b53e6",
-    "storage_bucket": "easymovie-b53e6.appspot.com"
-  },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1060875966901:android:c5a6aadb3471204b9aa1fc",
-        "android_client_info": {
-          "package_name": "com.muratozturk.easyfilm"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "1060875966901-khar18ajbbg0kg42h0elhjhq8jv75mt4.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDqz01YTPvQbeZdWNiixag0XmODoAMEonk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1060875966901-khar18ajbbg0kg42h0elhjhq8jv75mt4.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "configuration_version": "1"
+  "type": "service_account",
+  "project_id": "project-movix",
+  "private_key_id": "928b09e9376a6c804eff6391a8f527c864044495",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDmrxJO5yep955V\nRAgQjjVoFjEQA+wMiqaZT+5f4MfoMlFh1L/KfUftQVIXeljKDIbXUyK5P45WDTl8\n+aMVs7uYOnnFdIAaxFZpXdtSumnxFg2FvCnHWaTCl+dBbpKqU0iH01WjhMUD2xgI\nE1V9syyFzaMWPIrDb0AZHqXZbstdPnRVPh+jRwjAJPKQJIvoA6bNu5j4XP89Rlkw\nllWP8hRK75OhLcYazFJipE06L4NEuoUiOA/XNKAWwioi3foWcOP2/7Ok4AKjn9fm\nqRod90u/sIVd6jaKinkQeF0l0OlnBQyla37/ZZtqIjqq6JXLglevhHGE48LTS0xw\n95GC3vUNAgMBAAECggEAQ2Pqs804m6FAioU82+VHedhdzeFvcHyCze/5Yd4PWGh2\nuN9HhjaSMB/whPZTgPcm3zmkv7xu7vmfDUD6YSkoCQEwOLxffjJUUiS+oUzfDTSV\nj7eX9upbxRNOViGgzAxXeIKHFqV/TrCPNTC8vWN+Arq/xYu7N/vEnHIFHl+NHnhF\n1F0SPaQ+tVLFGuHzo2iKiL0000K6CHnrSc7rbhEhY0q4fsiMHFB7zwFuQu1wlUps\nrlK9l7ndkiZbvfDgsh/lO1YveKQN79kF9Xu/zJ2aOOS1hT5hOOZ99v5rNkBsJ04H\ngkipFO7Vu9RcehQFo0OSQqNbF0TQJ+Ek5wC05PcBSwKBgQDzwCzAcTnpXsX5s5Ok\n9CY64S7emdfRHn97vCbpDGEr+MZ4JOT4onjylcqfhoafIbQoa0pJEZLB5cuWPmey\n/F3yAKX1i/g5mqK5IGrTssZnhrMxYo9x5+Y/oB99EPQT3ZBLgt8AFQTt2jB3pSyJ\nEVEREePJMl4p3efi1j+/lwRMHwKBgQDyRsstidPIJSkNqJkGYjjy5ZESo+V/Dc13\niSvcvUTfTZRXXK/9ghsDOWbjneHECuqTtsvQg3Az98Zvkm8rSGk2Qn6VQctiNhIR\npMkXjd0yMoTOngSCqFrYM/o0L0MvmKFKPW31IT28kAscE3QaRMNWN5wZ/XEPaYb/\nFjNP2YzZUwKBgCWaGc0+Kk7j/ep9V2N0/ojKwC460V5DNCtkZSRCcqMT55oVJvVs\nKvhRP0bIu+/EhURO+NC400jyKCvvSJQF9oAktXVhuFM6lau1YoVx6MWDtBUEPVi3\nC3/5NaJXgS+nWGEtuTUMCQygQiXS50Hl1/moJtmc2YXf46vMnVzy8QjFAoGBAMv2\nh3RF9TIo/p/OEU3LgRAT7gcYTcuhzhlVNMT33jRz9m95y3uLfbxAJft33ioR2pwS\npxFapipJ7Rfe2pJAurqATlrPci6zQJDz/otC1jY9S4s6gqeQnjInx/sI0vIN97Mt\ndhWJL5VAWun/Ap5ex2gdFuDWeck02P6FLRuLFcWbAoGBAMQTItv43I2bs729KW6V\nY7cXdgXF5psoOYGCKzeyI9DoQIQfXhITFEkAVu28DRwCblFpOKpN2sd1F1r3M5HL\n29eVlMY9OmIMkYpdWHaCsdt3mLYTjPXr9rtxjetXosPJWWGAjB5/20Lgcmrw1nBF\nUq4AyD0wd8gh47rr8cX9xaSW\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-376jv@project-movix.iam.gserviceaccount.com",
+  "client_id": "110534713387606181332",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-376jv%40project-movix.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
 }
